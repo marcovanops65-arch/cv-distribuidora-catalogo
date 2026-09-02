@@ -186,6 +186,7 @@
     border-radius: 14px; padding: 16px;
     display: flex; flex-direction: column; gap: 10px;
     position: relative;
+    min-width: 0;
   }
   .oferta-badge {
     position: absolute; top: -8px; right: 12px;
@@ -298,6 +299,8 @@
     .stats { grid-template-columns: 1fr; }
     .footer-grid { grid-template-columns: 1fr; }
     .grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+    .card-bottom { flex-wrap: wrap; }
+    .card-bottom .add-btn { width: 100%; text-align: center; }
   }
 
   /* ---------- cart modal ---------- */
